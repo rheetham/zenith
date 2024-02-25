@@ -1,17 +1,24 @@
 import React from "react";
 import "./Home.css";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import AssessmentIcon from "@mui/icons-material/Assessment";
+import DriveFileRenameOutlineRoundedIcon from "@mui/icons-material/DriveFileRenameOutlineRounded";
+import CrisisAlertRoundedIcon from "@mui/icons-material/CrisisAlertRounded";
 function Home() {
   return (
     <div className="home">
       <div className="head">
-        <h1 className="logo">Pomotimer</h1>
+        <div className="logo">
+          <CrisisAlertRoundedIcon fontSize="large" />
+          <h1>fokustimr</h1>
+        </div>
         <div className="push">
           <a href="" className="reports">
-            Reports
+            <AssessmentIcon fontSize="large" />
           </a>
-          <a href="" className="login">
-            Login
-          </a>
+          <div className="login">
+            <AccountCircleIcon fontSize="large" />
+          </div>
         </div>
       </div>
 
@@ -19,9 +26,9 @@ function Home() {
         <span className="focus">focus</span>
         <div className="duo">
           <span className="timer">25:00</span>
-          <a href="" className="customizationButton">
-            Cus
-          </a>
+          <div className="customizationButton">
+            <DriveFileRenameOutlineRoundedIcon fontSize="large" />
+          </div>
         </div>
         <button className="startButton btn btn-success">Start</button>
       </div>

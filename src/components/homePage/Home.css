@@ -2,7 +2,9 @@ a {
   text-decoration: none;
   color: #fff;
 }
-
+h1 {
+  margin: 0;
+}
 .home {
   height: 100vh;
   color: #fff;
@@ -25,6 +27,7 @@ a {
 
 .logo {
   margin: 0;
+  display: flex;
 }
 
 .timerBody {
