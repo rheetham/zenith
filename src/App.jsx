@@ -1,10 +1,12 @@
-import React from 'react';
-import MainPage from './components/main_page';
+import React from "react";
+//import Report from "./components/report/Report";
+//import ToDoList from "./components/toDoList/toDolist";
+import Home from "./components/homePage/Home";
 
 function App() {
   return (
     <div>
-        <MainPage />
+      <Home />
     </div>
   );
 }

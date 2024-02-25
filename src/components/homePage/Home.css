@@ -1,0 +1,76 @@
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.home {
+  height: 100vh;
+  color: #fff;
+  background-color: #172627;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.push {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  float: right;
+}
+
+.head {
+  box-shadow: #20cd8d 0px 0px 1.5px 0px;
+  background-color: #172627;
+  height: 7.5vh;
+}
+
+.logo {
+  margin: 0;
+}
+
+.timerBody {
+  height: 75vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 100px;
+}
+
+.focus {
+  font-size: 25px;
+}
+
+.timer {
+  font-size: 75px;
+  margin: 20px;
+  padding: 15px 30px;
+  box-shadow: #20cd8d 0px 0px 2px 0px;
+  border-radius: 15px;
+}
+
+.duo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.startButton {
+  background-color: #20cd8d;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.addTask {
+  padding: 12.5px;
+  display: flex;
+  color: #20cd8d;
+  align-items: center;
+  justify-content: center;
+  background-color: #172627;
+}
