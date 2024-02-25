@@ -21,18 +21,18 @@ function Home() {
           </div>
         </div>
       </div>
-
-      <div className="timerBody">
-        <span className="focus">focus</span>
-        <div className="duo">
-          <span className="timer">25:00</span>
-          <div className="customizationButton">
-            <DriveFileRenameOutlineRoundedIcon fontSize="large" />
+      <div className="timerBody2">
+        <div className="timerBody">
+          <span className="focus">focus</span>
+          <div className="duo">
+            <span className="timer">25:00</span>
           </div>
+          <button className="startButton btn btn-success">Start</button>
         </div>
-        <button className="startButton btn btn-success">Start</button>
+        <div className="customizationButton">
+          <DriveFileRenameOutlineRoundedIcon fontSize="medium" />
+        </div>
       </div>
-
       <div className="todoList">
         <a href="" className="addTask">
           Add a task?

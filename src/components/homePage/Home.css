@@ -39,7 +39,15 @@ h1 {
 
   margin-left: 100px;
 }
+.timerBody2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.customizationButton {
+  margin-bottom: 35px;
+}
 .focus {
   font-size: 25px;
 }
