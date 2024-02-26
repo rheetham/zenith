@@ -36,10 +36,10 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin-left: 100px;
+  margin-left: 24px;
 }
 .timerBody2 {
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,6 +79,7 @@ h1 {
 }
 
 .addTask {
+  text-align: center;
   padding: 12.5px;
   display: flex;
   color: #20cd8d;
