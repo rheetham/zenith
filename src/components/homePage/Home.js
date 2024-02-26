@@ -30,7 +30,7 @@ function Home() {
           <button className="startButton btn btn-success">Start</button>
         </div>
         <div className="customizationButton icon">
-          <DriveFileRenameOutlineRoundedIcon fontSize="large" />
+          <DriveFileRenameOutlineRoundedIcon fontSize="medium" />
         </div>
       </div>
       <div className="todoList">

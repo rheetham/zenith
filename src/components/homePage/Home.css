@@ -59,7 +59,10 @@ h1 {
 }
 
 .customizationButton {
+  box-shadow: #20cd8d 0px 0px 2px 0px;
+  border-radius: 100%;
   margin-bottom: 35px;
+  padding: 5px;
 }
 
 .focus {
