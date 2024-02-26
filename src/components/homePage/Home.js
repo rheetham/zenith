@@ -3,20 +3,20 @@ import "./Home.css";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import AssessmentIcon from "@mui/icons-material/Assessment";
 import DriveFileRenameOutlineRoundedIcon from "@mui/icons-material/DriveFileRenameOutlineRounded";
-import CrisisAlertRoundedIcon from "@mui/icons-material/CrisisAlertRounded";
+import TimelineIcon from "@mui/icons-material/Timeline";
 function Home() {
   return (
     <div className="home">
       <div className="head">
-        <div className="logo">
-          <CrisisAlertRoundedIcon fontSize="large" />
-          <h1>fokustimr</h1>
+        <div className="logo icon">
+          <TimelineIcon fontSize="large" />
+          <h1>Zenith</h1>
         </div>
         <div className="push">
-          <a href="" className="reports">
+          <a href="" className="reports icon">
             <AssessmentIcon fontSize="large" />
           </a>
-          <div className="login">
+          <div className="login icon">
             <AccountCircleIcon fontSize="large" />
           </div>
         </div>
@@ -29,8 +29,8 @@ function Home() {
           </div>
           <button className="startButton btn btn-success">Start</button>
         </div>
-        <div className="customizationButton">
-          <DriveFileRenameOutlineRoundedIcon fontSize="medium" />
+        <div className="customizationButton icon">
+          <DriveFileRenameOutlineRoundedIcon fontSize="large" />
         </div>
       </div>
       <div className="todoList">

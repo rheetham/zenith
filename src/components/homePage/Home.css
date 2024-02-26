@@ -4,6 +4,11 @@ a {
 }
 h1 {
   margin: 0;
+  font-size: 30px;
+  margin-left: 5px;
+}
+.icon {
+  cursor: pointer;
 }
 .home {
   height: 100vh;
@@ -16,18 +21,25 @@ h1 {
   text-decoration: none;
   display: flex;
   align-items: center;
-  float: right;
+  margin-left: auto;
 }
 
 .head {
-  box-shadow: #20cd8d 0px 0px 1.5px 0px;
   background-color: #172627;
-  height: 7.5vh;
+  height: 5vh;
+  padding: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
   margin: 0;
+  float: left;
   display: flex;
+}
+.reports,
+.login {
+  margin: 5px;
 }
 
 .timerBody {
@@ -39,6 +51,7 @@ h1 {
   margin-left: 24px;
 }
 .timerBody2 {
+  box-shadow: 0px 0px 10px 0px #20cd8d;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -50,15 +63,17 @@ h1 {
 }
 
 .focus {
-  font-size: 25px;
+  font-size: 30px;
+  padding-bottom: 20px;
 }
 
 .timer {
   font-size: 75px;
   margin: 20px;
-  padding: 15px 30px;
+  padding: 20px 40px;
   box-shadow: #20cd8d 0px 0px 2px 0px;
   border-radius: 15px;
+  box-shadow: 0px 0px 10px 0px #20cd8d;
 }
 
 .duo {
@@ -73,9 +88,12 @@ h1 {
   border: none;
   padding: 15px 30px;
   font-size: 20px;
-  border-radius: 15px;
+  border-radius: 35px;
   cursor: pointer;
-  margin-top: 15px;
+  margin-top: 30px;
+}
+.startButton:hover {
+  box-shadow: 0px 0px 10px 0px #0f744f;
 }
 
 .addTask {
