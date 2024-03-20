@@ -4,6 +4,7 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import AssessmentIcon from "@mui/icons-material/Assessment";
 import DriveFileRenameOutlineRoundedIcon from "@mui/icons-material/DriveFileRenameOutlineRounded";
 import TimelineIcon from "@mui/icons-material/Timeline";
+import PomodoroTimer from "../timer/pomo";
 function Home() {
   return (
     <div className="home">
@@ -21,17 +22,8 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="timerBody2">
-        <div className="timerBody">
-          <span className="focus">focus</span>
-          <div className="duo">
-            <span className="timer">25:00</span>
-          </div>
-          <button className="startButton btn btn-success">Start</button>
-        </div>
-        <div className="customizationButton icon">
-          <DriveFileRenameOutlineRoundedIcon fontSize="medium" />
-        </div>
+      <div>
+        <PomodoroTimer />
       </div>
       <div className="todoList">
         <a href="" className="addTask">
